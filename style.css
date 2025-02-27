@@ -24,6 +24,7 @@ body{
 }
 
 .display-the-result {
+    color: white;
     width: 100%;
     padding: 2px;
     font-size: 3rem; 
