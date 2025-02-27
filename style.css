@@ -48,3 +48,13 @@ button {
     font-weight: bold;
     cursor: pointer;
 }
+
+.equal {
+    background-color: orange;
+    color: white;
+}
+
+.operator-btn {
+    background-color: white;
+    color: orange;
+}
