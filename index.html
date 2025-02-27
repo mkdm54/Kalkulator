@@ -11,7 +11,9 @@
 <body>
     <div id="calc" class="calc">
         <!-- Display -->
-        <input id="display-the-result" class="display-the-result" type="text" readonly>
+        <div class="display-container">
+            <input id="display-the-result" class="display-the-result" type="text" readonly>
+        </div>
         <!-- Buttons -->
         <div id="calc-btn" class="calc-btn">
             <button class="operator-btn" onclick="appendToDisplay('+')">&plus;</button>
