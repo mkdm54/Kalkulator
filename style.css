@@ -9,7 +9,9 @@ body{
 .calc {
     background-color: black;
     border-radius: 15px;
-    max-width: 500px;
+    padding-right: 12px;
+    padding-left: 12px;
+    width: 400px;
     overflow: hidden;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -17,10 +19,14 @@ body{
     -o-border-radius: 15px;
 }
 
+.display-container {
+    margin: 10px;
+}
+
 .display-the-result {
     width: 100%;
-    padding: 25px;
-    font-size: 5rem;
+    padding: 2px;
+    font-size: 3rem; 
     text-align: left;
     border: none;
     outline: none;
@@ -36,15 +42,15 @@ body{
 button {
     color: white;
     background-color: grey;
-    width: 100px;
-    height: 100px;
+    width: 68px;
+    height: 68px;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     border: none;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     cursor: pointer;
 }
