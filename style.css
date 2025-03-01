@@ -9,7 +9,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #1e2a27;
 }
 
 .calc {
@@ -25,14 +24,14 @@ body {
 }
 
 .display-the-result {
-    color: white;
+    color: rgb(0, 0, 0);
     width: 100%;
     padding: 2px;
     font-size: 4rem;
     text-align: right;
     border: none;
     outline: none;
-    background-color: rgb(95, 95, 95);
+    background-color: white;
     font-family: 'Digital Dismay', sans-serif;
 }
 
@@ -69,17 +68,17 @@ button {
 /* Tombol operator */
 .operator-btn {
     background-color: white;
-    color: black;
+    color: orange;
 }
 
 /* Tombol fungsi (AC, ⌫) */
 .function-btn {
-    background-color: #4a5855;
-    color: white;
+    background-color: white;
+    color: orange;
 }
 
 /* Tombol sama dengan */
-.equal {
+.equal-btn {
     background-color: orange;
     color: white;
 }
