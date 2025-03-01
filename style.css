@@ -47,6 +47,7 @@ body {
 .row {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 20px;
     padding: 10px;
 }
@@ -82,3 +83,9 @@ button {
     background-color: orange;
     color: white;
 }
+
+.backspace-btn {
+    color: orange;
+}
+
+
