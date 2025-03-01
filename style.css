@@ -3,24 +3,21 @@
     src: url('fonts/digital-dismay.regular.otf') format('opentype');
 }
 
-body{
+body {
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #1e2a27;
 }
 
 .calc {
     background-color: black;
     border-radius: 15px;
-    padding: 12px 12px ;
-    width: 400px;
+    padding: 15px;
+    width: 320px;
     overflow: hidden;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
 }
 
 .display-container {
@@ -31,42 +28,58 @@ body{
     color: white;
     width: 100%;
     padding: 2px;
-    font-size: 4rem; 
-    text-align: left;
+    font-size: 4rem;
+    text-align: right;
     border: none;
     outline: none;
-    background-color:rgb(95, 95, 95);
+    background-color: rgb(95, 95, 95);
     font-family: 'Digital Dismay', sans-serif;
 }
 
+/* Tata letak tombol dibuat vertikal */
 .calc-btn {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    align-items: center;
 }
 
+/* Baris tombol */
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+/* Tombol dasar */
 button {
     color: white;
     background-color: grey;
-    width: 68px;
-    height: 68px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
     border: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     cursor: pointer;
+    transition: 0.2s;
 }
 
-.equal {
-    background-color: orange;
+/* Tombol operator */
+.operator-btn {
+    background-color: white;
+    color: black;
+}
+
+/* Tombol fungsi (AC, ⌫) */
+.function-btn {
+    background-color: #4a5855;
     color: white;
 }
 
-.operator-btn {
-    background-color: white;
-    color: orange;
+/* Tombol sama dengan */
+.equal {
+    background-color: orange;
+    color: white;
 }
