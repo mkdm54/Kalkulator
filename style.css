@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Digital Dismay';
+    src: url('fonts/digital-dismay.regular.otf') format('opentype');
+}
+
 body{
     margin: 0;
     display: flex;
@@ -9,8 +14,7 @@ body{
 .calc {
     background-color: black;
     border-radius: 15px;
-    padding-right: 12px;
-    padding-left: 12px;
+    padding: 12px 12px ;
     width: 400px;
     overflow: hidden;
     -webkit-border-radius: 15px;
@@ -27,11 +31,12 @@ body{
     color: white;
     width: 100%;
     padding: 2px;
-    font-size: 3rem; 
+    font-size: 4rem; 
     text-align: left;
     border: none;
     outline: none;
     background-color:rgb(95, 95, 95);
+    font-family: 'Digital Dismay', sans-serif;
 }
 
 .calc-btn {
