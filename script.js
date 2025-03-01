@@ -11,3 +11,8 @@ const clearDisplay = () => {
 const calculate = () => {
     display.value = eval(display.value);
 };
+
+function backspace() {
+    var inputField = document.getElementById("inputField");
+    inputField.value = inputField.value.slice(0, -1);
+}
